@@ -35,3 +35,10 @@ a {
 a:hover {
   color: #E95853;
 }
+.cuadro{
+  width: 100%;
+  text-align: center;
+}
+.fondo{
+  background-image: url(img/bg-home.jpg);
+}
