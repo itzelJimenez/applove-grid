@@ -1,10 +1,16 @@
 /*
  * Archivo principal de funcionalidad de JS
  */
-var imagenes = document.getElementsByClassName("img");
+ var modal= document.getElementById("modal");
+ var imgEmergente=document.getElementById('imagen');
+ var x=document.getElementById('x');
+ var imagenes = document.getElementsByClassName("img");
+
+
 for(var i=0; i<imagenes.length; i++){
 	imagenes[i].addEventListener("click", prueba)
 }
 function prueba(){
-	alert("Te necesito!!!!!!")
+	imgEmergente.src=this.src;
+	modal.style.display="block";
 }
