@@ -91,6 +91,7 @@ h2{
   right: 30px;
   color: gray;
   font-size: 38px;
+  cursor: pointer;
 }
 #modal{
    display: none;
@@ -103,5 +104,5 @@ h2{
     height: 100%;
     overflow: auto;
     background-color: #009b71;
-    background-color: rgba(0, 155, 113, 0.86);
+    background-color: rgba(0, 155, 153, 0.86);
 }

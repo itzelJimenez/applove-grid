@@ -14,3 +14,8 @@ function prueba(){
 	imgEmergente.src=this.src;
 	modal.style.display="block";
 }
+function cerrar(){
+	modal.style.display="none";
+}
+
+x.addEventListener("click", cerrar)
