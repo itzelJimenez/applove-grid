@@ -23,6 +23,7 @@
 	min-height: 7px;
 	padding: 12px;
 	float: left;
+	text-align: center;
 }
 .row:before, .row:after{
 	content: " ";
@@ -64,9 +65,13 @@
 }
 .col-12{
 	width: 100%;
+	text-align: center;
 }
 .link{
 	font-weight: 700;
 	padding: 21px;
 	display: inline-block;
+}
+.white-letter{
+	color: white;
 }
