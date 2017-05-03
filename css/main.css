@@ -80,7 +80,8 @@ h2{
 }
 
 .emergente{
-  transform: scale(3);
+  width: 45%;
+  align-items: center;
   background-color: gray;
 }
 #x{

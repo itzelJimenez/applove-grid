@@ -11,8 +11,6 @@ for(var i=0; i<imagenes.length; i++){
 	imagenes[i].addEventListener("click", prueba)
 }
 function prueba(){
-	this.style.display="block";
 	imgEmergente.src=this.src;
-	this.style.width="1000px";
-	this.style.align="center"
+	modal.style.display="block";
 }
